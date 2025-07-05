@@ -1,9 +1,10 @@
-import photo from "../assets/photo-grid.png";
-
-function Hero() {
+export default function Hero() {
     return (
         <section className="hero">
-            <img src={photo} className="hero--photo" />
+            <img
+                src="../../public/assets/photo-grid.png"
+                className="hero--photo"
+            />
             <h1 className="hero--header">Online Experiences</h1>
             <p className="hero--text">
                 Join unique interactive activities led by one-of-a-kind
@@ -12,4 +13,3 @@ function Hero() {
         </section>
     );
 }
-export default Hero;
